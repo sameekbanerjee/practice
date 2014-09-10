@@ -1,0 +1,302 @@
+1. Given an array A[] and a number x, check for pair in A[] with sum as x
+Write a C program that, given an array A[] of n numbers and another number x, determines whether or not there exist two elements in S whose sum is exactly x.
+
+2. Majority Element
+Majority Element: A majority element in an array A[] of size n is an element that appears more than n/2 times (and hence there is at most one such element).
+
+Write a function which takes an array and emits the majority element (if it exists), otherwise prints NONE as follows:
+
+       I/P : 3 3 4 2 4 4 2 4 4
+       O/P : 4 
+
+       I/P : 3 3 4 2 4 4 2 4
+       O/P : NONE
+       
+3. Find the Number Occurring Odd Number of Times
+Given an array of positive integers. All numbers occur even number of times except one number which occurs odd number of times. Find the number in O(n) time & constant space.
+
+Example:
+I/P = [1, 2, 3, 2, 3, 1, 3]
+O/P = 3
+
+4. Largest Sum Contiguous Subarray
+Write an efficient C program to find the sum of contiguous subarray within a one-dimensional array of numbers which has the largest sum.
+
+5. Find the Missing Number
+You are given a list of n-1 integers and these integers are in the range of 1 to n. There are no duplicates in list. One of the integers is missing in the list. Write an efficient code to find the missing integer.
+
+Example:
+I/P    [1, 2, 4, ,6, 3, 7, 8]
+O/P    5
+
+6. Search an element in a sorted and pivoted array
+Question:
+An element in a sorted array can be found in O(log n) time via binary search. But suppose I rotate the sorted array at some pivot unknown to you beforehand. So for instance, 1 2 3 4 5 might become 3 4 5 1 2. Devise a way to find an element in the rotated array in O(log n) time.
+
+7. Merge an array of size n into another array of size m+n
+Asked by Binod
+Question:
+There are two sorted arrays. First one is of size m+n containing only m elements. Another one is of size n and contains n elements. Merge these two arrays into the first array of size m+n such that the output is sorted.
+
+8. Median of two sorted arrays
+Question: There are 2 sorted arrays A and B of size n each. Write an algorithm to find the median of the array obtained after merging the above 2 arrays(i.e. array of length 2n). The complexity should be O(log(n))
+
+9. iterative and recursive way to reverse array.
+
+10. Write a function rotate(ar[], d, n) that rotates arr[] of size n by d elements. [Reversal algorithm, Block swap]
+
+11. Maximum sum such that no two elements are adjacent
+Question: Given an array of positive numbers, find the maximum sum of a subsequence with the constraint that no 2 numbers in the sequence should be adjacent in the array. So 3 2 7 10 should return 13 (sum of 3 and 10) or 3 2 5 10 7 should return 15 (sum of 3, 5 and 7).Answer the question in most efficient way.
+
+12. Leaders in an array
+Write a program to print all the LEADERS in the array. An element is leader if it is greater than all the elements to its right side. And the rightmost element is always a leader. For example int the array {16, 17, 4, 3, 5, 2}, leaders are 17, 5 and 2.
+
+Let the input array be arr[] and size of the array be size.
+
+13. Print the elements of an array in the decreasing frequency if 2 numbers have same frequency then print the one which came 1st
+E.g. 2 5 2 8 5 6 8 8 output: 8 8 8 2 2 5 5 6.
+
+14. Inversion Count for an array indicates – how far (or close) the array is from being sorted. If array is already sorted then inversion count is 0. If array is sorted in reverse order that inversion count is the maximum. 
+Formally speaking, two elements a[i] and a[j] form an inversion if a[i] > a[j] and i < j
+
+Example:
+The sequence 2, 4, 1, 3, 5 has three inversions (2, 1), (4, 1), (4, 3).
+
+15. An Array of integers is given, both +ve and -ve. You need to find the two elements such that their sum is closest to zero.
+
+16. Write an efficient C program to find smallest and second smallest element in an array.
+
+17. Write a C function to find if a given integer x appears more than n/2 times in a sorted array of n integers.
+
+Basically, we need to write a function say isMajority() that takes an array (arr[] ), array’s size (n) and a number to be searched (x) as parameters and returns true if x is a majority element (present more than n/2 times).
+
+18. Write a C function to return minimum and maximum in an array. You program should make minimum number of comparisons.
+
+19. You are given an array of 0s and 1s in random order. Segregate 0s on left side and 1s on right side of the array. Traverse array only once.
+
+20.  Write an efficient program for printing k largest elements in an array. Elements in array can be in any order.
+
+21. Given a binary matrix, find out the maximum size square sub-matrix with all 1s.
+
+For example, consider the below binary matrix.
+
+ 
+   0  1  1  0  1 
+   1  1  0  1  0 
+   0  1  1  1  0
+   1  1  1  1  0
+   1  1  1  1  1
+   0  0  0  0  0
+The maximum square sub-matrix with all set bits is
+
+    1  1  1
+    1  1  1
+    1  1  1
+    
+22. Maximum difference between two elements such that larger element appears after the smaller number
+Given an array arr[] of integers, find out the difference between any two elements such that larger element appears after the smaller number in arr[].
+
+Examples: If array is [2, 3, 10, 6, 4, 8, 1] then returned value should be 8 (Diff between 10 and 2). If array is [ 7, 9, 5, 6, 3, 2 ] then returned value should be 2 (Diff between 7 and 9)
+
+23. Union and Intersection of two sorted arrays
+
+24. Given a sorted array and a value x, the ceiling of x is the smallest element in array greater than or equal to x, and the floor is the greatest element smaller than or equal to x. Assume than the array is sorted in non-decreasing order. Write efficient functions to find floor and ceiling of x.
+
+25. Given an array arr[] of n integers, construct a Product Array prod[] (of same size) such that prod[i] is equal to the product of all the elements of arr[] except arr[i]. Solve it without division operator and in O(n).
+
+26. Given an array A[], write a function that segregates even and odd numbers. The functions should put all even numbers first, and then odd numbers.
+
+27. You are given an array of n+2 elements. All elements of the array are in range 1 to n. And all elements occur once except two numbers which occur twice. Find the two repeating numbers.
+
+28. Given an array A[] consisting 0s, 1s and 2s, write a function that sorts A[]. The functions should put all 0s first, then all 1s and all 2s in last.
+
+29. Given an unsorted array arr[0..n-1] of size n, find the minimum length subarray arr[s..e] such that sorting this subarray makes the whole array sorted.
+
+30. Given an array of n elements which contains elements from 0 to n-1, with any of these numbers appearing any number of times. Find these repeating numbers in O(n) and using only constant memory space.
+
+31. Equilibrium index of an array is an index such that the sum of elements at lower indexes is equal to the sum of elements at higher indexes
+
+32. Given an image, how will you turn it by 90 degrees?
+
+33. Given an n x n matrix, where every row and column is sorted in increasing order. Given a number x, how to decide whether this x is in the matrix. The designed algorithm should have linear time complexity.
+
+34. Given an array, print the Next Greater Element (NGE) for every element. The Next greater Element for an element x is the first greater element on the right side of x in array.
+
+35. Given an unsorted array of numbers, write a function that returns true if array consists of consecutive numbers.
+
+36. Given a sorted array of n integers where each integer is in the range from 0 to m-1 and m > n. Find the smallest number that is missing from the array.
+
+37. Given a sorted array arr[] and a number x, write a function that counts the occurrences of x in arr[]. Expected time complexity is O(Logn)
+
+38. Given an array arr[], find the maximum j – i such that arr[j] > arr[i].
+
+39. Given an array and an integer k, find the maximum for each and every contiguous subarray of size k.
+
+40. Given two arrays: arr1[0..m-1] and arr2[0..n-1]. Find whether arr2[] is a subset of arr1[] or not. Both the arrays are not in sorted order.
+
+41. Given an unsorted array arr[] and two numbers x and y, find the minimum distance between x and y in arr[].
+
+42. Given an unsorted array of size n. Array elements are in range from 1 to n. One number from set {1, 2, …n} is missing and one number occurs twice in array. Find these two numbers.
+
+43. Given a 2D array, print it in spiral form.
+
+44. Given a boolean matrix mat[M][N] of size M X N, modify it such that if a matrix cell mat[i][j] is 1 (or true) then make all the cells of ith row and jth column as 1.
+
+45. Given that integers are read from a data stream. Find median of elements read so for in efficient way. For simplicity assume there are no duplicates.
+
+46. Given an array of n distinct integers sorted in ascending order, write a function that returns a Fixed Point in the array, if there is any Fixed Point present in array, else returns -1. Fixed Point in an array is an index i such that arr[i] is equal to i. Note that integers in array can be negative.
+
+47. Given an array A[0 ... n-1] containing n positive integers, a subarray A[i ... j] is bitonic if there is a k with i <= k <= j such that A[i] <= A[i + 1] ... <= A[k] >= A[k + 1] >= .. A[j - 1] > = A[j]. Write a function that takes an array as argument and returns the length of the maximum length bitonic subarray.
+Expected time complexity of the solution is O(n)
+
+48. Given an array of integers which is initially increasing and then decreasing, find the maximum value in the array.
+
+49. Write a function to count number of smaller elements on right of each element in an array.
+
+50. Given an array of integers where each element represents the max number of steps that can be made forward from that element. Write a function to return the minimum number of jumps to reach the end of the array (starting from the first element).
+
+51. Create a data structure twoStacks that represents two stacks. Implementation of twoStacks should use only one array, i.e., both stacks should use the same array for storing elements. Following functions must be supported by twoStacks.
+
+52. Given an unsorted array of nonnegative integers, find a continous subarray which adds to a given number.
+
+53. Given an array of n positive integers. Write a program to find the sum of maximum sum subsequence of the given array such that the intgers in the subsequence are sorted in increasing order.
+
+54. You are given an unsorted array with both positive and negative elements. You have to find the smallest positive number missing from the array in O(n) time using constant extra space. You can modify the original array.
+
+55. Given an array and a value, find if there is a triplet in array whose sum is equal to the given value. If there is such a triplet present in array, then print the triplet and return true.
+
+56. Given an unsorted array that contains even number of occurrences for all numbers except two numbers. Find the two numbers which have odd occurrences in O(n) time complexity and O(1) extra space.
+
+57. Another classical problem. In a party of N people, only one person is known to everyone. Such a person may be present in the party, if yes, (s)he doesn’t know anyone in the party.
+
+58. Given an array arr[0 ... n-1] containing n positive integers, a subsequence of arr[] is called Bitonic if it is first increasing, then decreasing. Write a function that takes an array as argument and returns the length of the longest bitonic subsequence.
+
+59. Given an array of n integers, find the 3 elements such that a[i] < a[j] < a[k] and i < j < k in 0(n) time. If there are multiple such triplets, then print any one of them.
+
+60. Given an array containing only 0s and 1s, find the largest subarray which contain equal no of 0s and 1s. Expected time complexity is O(n).
+
+61. Partition problem is to determine whether a given set can be partitioned into two subsets such that the sum of elements in both subsets is same.
+
+62. Given an array that contains both positive and negative integers, find the product of the maximum product subarray. Expected Time complexity is O(n) and only O(1) extra space can be used.
+
+63. Given an unsorted array and a number n, find if there exists a pair of elements in the array whose difference is n.
+
+64. Given an array of integers, replace every element with the next greatest element (greatest element on the right side) in the array.
+
+65. You are given n pairs of numbers. In every pair, the first number is always smaller than the second number.
+
+66. Given an array of integers, find all combination of four elements in the array whose sum is equal to a given value X.
+
+67. Given an array of n elements, where each element is at most k away from its target position, devise an algorithm that sorts in O(n log k) time.
+
+68. I n a party of N people, only one person is known to everyone. Such a person may be present in the party, if yes, (s)he doesn’t know anyone in the party. We can only ask questions like “does A know B? “. Find the stranger (celebrity) in minimum number of questions.
+
+We can describe the problem input as an array of numbers/characters representing persons in the party. We also have a hypothetical function HaveAcquaintance(A, B) which returns true if A knows B, false otherwise.
+
+69. Given n numbers (both +ve and -ve), arranged in a circle, fnd the maximum sum of consecutive number.
+
+70. Given a boolean 2D array, where each row is sorted. Find the row with the maximum number of 1s.
+
+71. Median of two sorted arrays of different sizes
+
+72. Given a binary matrix, print all unique rows of the given matrix.
+
+73. Given an array, write a program to generate a random permutation of array elements. This question is also asked as “shuffle a deck of cards” or “randomize a given array”.
+
+74. Given an unsorted array of positive integers. Find the number of triangles that can be formed with three different array elements as three sides of triangles. For a triangle to be possible from 3 values, the sum of any two values (or sides) must be greater than the third value (or third side).
+
+75. Following is a typical recursive implementation of Quick Sort that uses last element as pivot.
+
+76. Iterative quicksort.
+
+77. About four months of gap (missing GFG), a new post. Given an M x N matrix, transpose the matrix without auxiliary memory.
+
+78. Given a boolean 2D matrix, find the number of islands. This is an variation of the standard problem: “Counting number of connected components in a undirected graph”.
+
+79. In my previous post, I have explained about longest monotonically increasing sub-sequence (LIS) problem in detail.
+
+80. Suppose there is a circle. There are n petrol pumps on that circle. You are given two sets of data.
+
+81. Given an array of numbers, arrange them in a way that yields the largest value. For example, if the given numbers are {54, 546, 548, 60}, the arrangement 6054854654 gives the largest value.
+
+82. Given a 2D array, find the maximum sum subarray in it. For example, in the following 2D array, the maximum sum subarray is highlighted with blue rectangle and sum of this subarray is 29.
+
+83. Given an an unsorted array, sort the given array. You are allowed to do only following operation on array.
+
+flip(arr, i): Reverse array from 0 to i 
+Unlike a traditional sorting algorithm, which attempts to sort with the fewest comparisons possible, the goal is to sort the sequence in as few reversals as possible.
+
+84. Imagine a hypothetical machine where flip(i) always takes O(1) time. Write an efficient program for sorting a given array in O(nLogn) time on the given machine. If we apply the same algorithm here, the time taken will be O(n^2) because the algorithm calls findMax() in a loop and find findMax() takes O(n) time even on this hypothetical machine.
+
+85. Given a set of n integers, divide the set in two subsets of n/2 sizes each such that the difference of the sum of two subsets is as minimum as possible.
+
+86. You are given a one dimensional array that may contain both positive and negative integers, find the sum of contiguous subarray of numbers which has the largest sum.
+
+87. Counting sort is a sorting technique based on keys between a specific range.
+
+88. Given a set of time intervals in any order, merge all overlapping intervals into one and output the result which should have only mutually exclusive intervals. Let the intervals be represented as pairs of integers for simplicity.
+
+89. Given an array of size n, the array contains numbers in range from 0 to k-1 where k is a positive integer and k < = n. Find the maximum repeating number in this array.
+
+90. The cost of a stock on each day is given in an array, find the max profit that you can make by buying and selling in those days.
+
+91. An array contains both positive and negative numbers in random order. Rearrange the array elements so that positive and negative numbers are placed alternatively.
+
+92. Given an array of integers, sort the array according to frequency of elements. For example, if the input array is {2, 3, 2, 4, 5, 12, 2, 3, 3, 3, 12}, then modify the array to {3, 3, 3, 3, 2, 2, 2, 12, 12, 4, 5}.
+
+93. Given an array of integers. Find a peak element in it. An array element is peak if it is NOT smaller than its neighbors. For corner elements, we need to consider only one neighbor.
+
+94. Given an array of size n, generate and print all possible combinations of r elements in array. For example, if input array is {1, 2, 3, 4} and r is 2, then output should be {1, 2}, {1, 3}, {1, 4}, {2, 3}, {2, 4} and {3, 4}.
+
+95. Given an array of size n, find all elements in array that appear more than n/k times. For example, if the input arrays is {3, 1, 2, 2, 1, 2, 3, 3} and k is 4, then the output should be [2, 3].
+
+96. Given a function ‘int f(unsigned int x)’ which takes a non-negative integer ‘x’ as input and returns an integer as output. The function is monotonically increasing with respect to value of x, i.e., the value of f(x+1) is greater than f(x) for every input x. Find the value ‘n’ where f() becomes positive for the first time. Since f() is monotonically increasing, values of f(n+1), f(n+2),… must be positive and values of f(n-2), f(n-3), .. must be negative.
+Find n in O(logn) time, you may assume that f(x) can be evaluated in O(1) time for any input x.
+
+97. Given a sequence of non-negative integers, find the subsequence of length 3 having maximum product with the numbers of the subsequence being in ascending order.
+
+98. A sorted array is rotated at some unknown point, find the minimum element in it. Following solution assumes that all elements are distinct.
+
+99. Given N men and N women, where each person has ranked all members of the opposite sex in order of preference, marry the men and women together such that there are no two people of opposite sex who would both rather have each other than their current partners. If there are no such people, all the marriages are “stable” (Source Wiki).
+
+100. Given k sorted arrays of size n each, merge them and print the sorted output.
+
+101. Given an array of random numbers, Push all the zero’s of a given array to the end of the array.
+
+102. Given two arrays X[] and Y[] of positive integers, find number of pairs such that x^y > y^x where x is an element from X[] and y is an element from Y[].
+
+103. Given an integer array and a positive integer k, count all distinct pairs with difference equal to k.
+
+104. The problem is to count all the possible paths from top left to bottom right of a mXn matrix with the constraints that from each cell you can either move only to right or down
+
+105. Given an array arr[] of size n where every element is in range from 0 to n-1. Rearrange the given array so that arr[i] becomes arr[arr[i]].
+
+106. Given an array of numbers of size n. It is also given that the array elements are in range from 0 to n2 – 1. Sort the given array in linear time.
+
+107. Given an unsorted integer (positive values only) array of size ‘n’, we can form a group of two or three, the group should be such that the sum of all elements in that group is a multiple of 3. Count all possible number of groups that can be generated in this way.
+
+108. Given an array of positive and negative numbers, find if there is a subarray with 0 sum.
+
+109. Given an array of 1s and 0s which has all 1s first followed by all 0s. Find the number of 0s. Count the number of zeroes in the given array.
+
+110. Given an n x n matrix, where every row and column is sorted in non-decreasing order. Find the kth smallest element in the given 2D array.
+
+111. Given an unsorted array, trim the array such that twice of minimum is greater than maximum in the trimmed array. Elements should be removed either end of the array.
+
+112. Given an array of integers and a number x, find the smallest subarray with sum greater than the given value.
+
+113. Write a code which inputs two numbers m and n and creates a matrix of size m x n (m rows and n columns) in which every elements is either X or 0.The Xs and 0s must be filled alternatively, the matrix should have outermost rectangle of Xs, then a rectangle of 0s, then a rectangle of Xs, and so on.
+
+114. Given a sorted array arr[] and a value X, find the k closest elements to X in arr[].
+
+115. Given a positive integer N, count all possible distinct binary strings of length N such that there are no consecutive 1′s.
+
+116. Given a number n, find the smallest number that has same set of digits as n and is greater than n. If x is the greatest possible number with its set of digits, then print “not possible”.
+
+117. Given two sorted arrays such the arrays may have some common elements. Find the sum of the maximum sum path to reach from beginning of any array to end of any of the two arrays.
+
+118. Given an array which is sorted, but after sorting some elements are moved to either of the adjacent positions, i.e., arr[i] may be present at arr[i+1] or arr[i-1]. Write an efficient function to search an element in this array. Basically the element arr[i] can only be swapped with either arr[i+1] or arr[i-1].
+
+119. Given two arrays A1[] and A2[], sort A1 in such a way that the relative order among the elements will be same as those are in A2.
+
+  
