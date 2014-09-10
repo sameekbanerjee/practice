@@ -1,6 +1,8 @@
 package prvt.intrvw.utils;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Random;
 
 public class Utils {
@@ -86,5 +88,23 @@ public class Utils {
 	public static void main(String[] args) {
 		int[] ex = getRandomArrayNoDup(12, 20, 0);
 		printArray(ex);
+	}
+	
+	public static <E> List<E> copy(List<E> q){
+		List<E> ret=new ArrayList<E>();
+		ret.addAll(q);
+		return ret;
+	}
+	
+	public static <E> String summary(List<E> c){
+		StringBuilder sb = new StringBuilder();
+		sb.append("[");
+		for(int i=0;i<c.size();i++){
+			if(i!=0)
+				sb.append(", ");
+			sb.append(c.get(i));
+		}
+		sb.append("]");
+		return sb.toString();
 	}
 }
